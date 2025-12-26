@@ -1,75 +1,196 @@
-# Course Material and FAQ for my Complete JavaScript Course
+# Complete JavaScript Course Notes
 
-This branch of the repo contains starter files and final code for all sections and projects of the course, **exactly as shown in the videos**.
-.github/agents
-/my-certification-converter-agent.md
+Welcome to the **Complete JavaScript Course**! This repository serves as the groundtruth for the class, containing notes, exercises, starter code, and final solutions for each chapter.
 
-Use starter code to start each section, and **final code to compare it with your own code whenever something doesn't work**!
+---
 
-There is also a the [updates-and-fixes](https://github.com/jonasschmedtmann/complete-javascript-course/tree/updates-and-fixes) branch which is kept up-to-date with **latest package updates and important bugfixes 🐛**
+## 📚 About This Course
 
-🚨 **_Please read the following Frequently Asked Questions (FAQ) carefully before starting the course_** 🚨
+This class is based on the popular [Udemy Complete JavaScript Course](https://www.udemy.com/course/the-complete-javascript-course/) and uses **[Eloquent JavaScript](https://eloquentjavascript.net/)** as the primary class textbook.
 
-## FAQ
+### What You'll Find Here
 
-### Q1: How do I download the files?
+- 📝 **Detailed notes** for each chapter (in Markdown and PDF formats)
+- 📁 **Starter code** to begin each section's exercises
+- ✅ **Final code** with complete solutions
+- 🃏 **Anki flashcards** for exam preparation, including solved exercises from the book
+- 🛠️ **Multiple projects** throughout the course to reinforce learning
 
-**A:** If you're new to GitHub and just want to download the entire code, hit the green button saying "Code", and then choose the "Download ZIP" option. If you can't see the button (on mobile), use [this link](https://github.com/jonasschmedtmann/complete-javascript-course/archive/master.zip) instead.
+---
 
-### Q2: I'm stuck! Where do I get help?
+## 🎯 Course Structure & Requirements
 
-**A:** Have you actually tried to fix the problem on your own? **Have you compared your code to the final code?** If you failed fixing your problem, please **post a detailed description of the problem to the Q&A area of that video over at Udemy**, along with a [codepen](https://codepen.io/pen/) containing your code. You will get help there. Please don't send me a personal message or email to fix coding problems.
+### Projects
 
-### Q3: What VSCode theme are you using?
+This course includes:
 
-**A:** I use Monokai Pro for all my coding and course production. It's a paid theme (I', **not** affiliated with them), but you can actually use the free demo version forever 😅
+1. **Book Projects**: Multiple hands-on projects from Eloquent JavaScript that you'll complete throughout the course
+2. **Milestone Project**: A comprehensive final project that you must propose and submit
+   - You will submit a project proposal for approval
+   - The milestone project demonstrates mastery of the concepts learned
 
-### Q4: Can I see a final version of the course projects?
+### Exam Preparation
 
-**A:** Sure! Here you go:
+Anki flashcard decks are available in this repository covering:
+- Key concepts from each chapter
+- Solved exercises from Eloquent JavaScript
+- Common exam questions and patterns
 
-- [Pig Game](https://pig-game-v2.netlify.app) (DOM Manipulation)
-- [Bankist](https://bankist.netlify.app/) (Arrays, Numbers, Dates, Timers. Fake "log in" with user `js` and PIN `1111`)
-- [Bankist Site](https://bankist-dom.netlify.app/) (Advanced DOM and Events)
-- [Mapty](https://mapty.netlify.app/) (OOP, Geolocation, Project planning)
-- [forkify](https://forkify-v2.jonas.io/) (Final advanced project)
+---
 
-### Q5: Videos don't load, can you fix it?
+## ⏱️ Course Timeline
 
-**A:** Unfortunately, there is nothing I can do about it. The course is hosted on Udemy, and sometimes they have technical issues like this. Please just come back a bit later or [contact their support team](https://support.udemy.com/hc/en-us).
+| Week | Chapter | Topic | Estimated Time |
+|------|---------|-------|----------------|
+| 1 | 01 | [Fundamentals Part 1](./01-Fundamentals-Part-1) | 4-5 hours |
+| 1 | 02 | [Fundamentals Part 2](./02-Fundamentals-Part-2) | 4-5 hours |
+| 2 | 03 | [Developer Skills](./03-Developer-Skills) | 3-4 hours |
+| 2 | 04 | [HTML & CSS Crash Course](./04-HTML-CSS) | 2-3 hours |
+| 3 | 05 | [Project: Guess My Number](./05-Guess-My-Number) | 3-4 hours |
+| 3 | 06 | [Project: Modal Window](./06-Modal) | 2-3 hours |
+| 4 | 07 | [Project: Pig Game](./07-Pig-Game) | 4-5 hours |
+| 4 | 08 | [How JavaScript Works Behind the Scenes](./08-Behind-the-Scenes) | 5-6 hours |
+| 5 | 09 | [Data Structures & Modern Operators](./09-Data-Structures-Operators) | 6-7 hours |
+| 6 | 10 | [A Closer Look at Functions](./10-Functions) | 5-6 hours |
+| 7 | 11 | [Project: Bankist App (Arrays)](./11-Arrays-Bankist) | 7-8 hours |
+| 8 | 12 | [Numbers, Dates, Timers (Bankist)](./12-Numbers-Dates-Timers-Bankist) | 5-6 hours |
+| 9 | 13 | [Advanced DOM & Events (Bankist Website)](./13-Advanced-DOM-Bankist) | 6-7 hours |
+| 10 | 14 | [Object-Oriented Programming](./14-OOP) | 6-7 hours |
+| 11 | 15 | [Project: Mapty (OOP)](./15-Mapty) | 6-7 hours |
+| 12 | 16 | [Asynchronous JavaScript](./16-Asynchronous) | 7-8 hours |
+| 13 | 17 | [Modern JS: Modules & Tooling](./17-Modern-JS-Modules-Tooling) | 5-6 hours |
+| 14 | 18 | [Final Project: Forkify](./18-forkify) | 10-12 hours |
+| 15-16 | — | **Milestone Project** (Student Proposal) | 15-20 hours |
 
-### Q6: Videos are blurred / have low quality, can you fix it?
+**Total Course Duration:** ~14-16 weeks (100-120 hours)
 
-**A:** Please open video settings and change the quality from 'Auto' to another value, for example 720p. If that doesn't help, please [contact the Udemy support team](https://support.udemy.com/hc/en-us).
+---
 
-### Q7: Are the videos downloadable?
+## 🚀 Next Steps: Continuing Your JavaScript Journey
 
-**A:** Videos used to be downloadable, but unfortunately, Udemy has disabled video downloads on all my courses in order to fight piracy. There is nothing I can do about this.
+After completing this course, here's your recommended path to becoming a proficient JavaScript developer:
 
-### Q8: I want to put these projects in my portfolio. Is that allowed?
+### Phase 1: Deepen Your JavaScript Knowledge (2-4 weeks)
 
-**A:** Absolutely! Just make sure you actually built them yourself by following the course, and that you understand what you did. What is **not allowed** is that you create your own course/videos/articles based on this course's content!
+📖 **Read: [JavaScript: The Good Parts](https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)** by Douglas Crockford
 
-### Q9: You mentioned your resources page. Where can I find it?
+This classic book is essential for understanding:
+- What parts of JavaScript you should **avoid** using
+- What parts of JavaScript you should **embrace**
+- Best practices that lead to cleaner, more maintainable code
+- The "beautiful" subset of JavaScript that makes it a powerful language
 
-**A:** It's on my website at <http://codingheroes.io/resources>. You can subscribe for updates 😉
+### Phase 2: Master the Language (4-8 weeks)
 
-### Q10: I love your courses and want to get updates on new courses. How?
+📖 **Read: [JavaScript: The Definitive Guide, 7th Edition](https://www.amazon.com/JavaScript-Definitive-Most-Used-Programming-Language/dp/1491952024)** by David Flanagan
 
-**A:** First, you can subscribe to my email list [at my website](http://codingheroes.io/resources). Plus, I make important announcements on twitter [@jonasschmedtman](https://twitter.com/jonasschmedtman), so you should definitely follow me there 🔥
+This comprehensive reference covers:
+- Every feature of the language in depth
+- Client-side JavaScript for web browsers
+- Server-side JavaScript with Node.js
+- Modern ES6+ features explained thoroughly
 
-### Q11: How do I get my certificate of completion?
+*Tip: Use this as both a learning resource and an ongoing reference guide.*
 
-**A:** A certificate of completion is provided by Udemy after you complete 100% of the course. After completing the course, just click on the "Your progress" indicator in the top right-hand corner of the course page. If you want to change your name on the certificate, please [contact the Udemy support team](https://support.udemy.com/hc/en-us).
+### Phase 3: Transition to TypeScript (4-6 weeks) ⭐ **HIGHLY RECOMMENDED**
 
-### Q12: Can you add subtitles in my language?
+📖 **Study: [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)**
 
-**A:** No. I provide professional English captions, but Udemy is responsible for subtitles in all other languages (automatic translations). So please [contact the Udemy support team](https://support.udemy.com/hc/en-us) to request your own language.
+**Moving to TypeScript is a must** for professional JavaScript development. TypeScript:
+- Adds static typing to JavaScript, catching errors at compile time
+- Fixes many of JavaScript's weird quirks and footguns
+- Provides better IDE support with autocomplete and refactoring tools
+- Is now the industry standard for large-scale JavaScript applications
+- Makes your code self-documenting and easier to maintain
 
-### Q13: Do you accept pull requests?
+TypeScript is essentially "JavaScript that scales." Most modern frameworks (Angular, Next.js, etc.) are built with TypeScript, and many companies require it for production code.
 
-**A:** No, for the simple reason that I want this repository to contain the _exact_ same code that is shown in the videos. _However, please feel free to add an issue if you found one._
+### Phase 4: Build Real Projects (Ongoing)
 
-### Q14: I'm looking for the old course version (v1) files. Where can I find them?
+- Contribute to open-source projects
+- Build full-stack applications
+- Explore frameworks like React, Vue, or Angular
+- Learn Node.js for backend development
 
-**A:** They are in this same repo, but in the [v1 branch](https://github.com/jonasschmedtmann/complete-javascript-course/tree/v1). So just go to [v1](https://github.com/jonasschmedtmann/complete-javascript-course/tree/v1), and download the code from there.
+---
+
+## 📖 Resources
+
+### Primary Course Materials
+
+| Resource | Description |
+|----------|-------------|
+| [Udemy Complete JavaScript Course](https://www.udemy.com/course/the-complete-javascript-course/) | The video course this class is based on |
+| [Eloquent JavaScript](https://eloquentjavascript.net/) | The class textbook (free online!) |
+
+### Recommended Books
+
+| Book | Author | Description |
+|------|--------|-------------|
+| [JavaScript: The Good Parts](https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742) | Douglas Crockford | Learn what to use and what to avoid in JS |
+| [JavaScript: The Definitive Guide](https://www.amazon.com/JavaScript-Definitive-Most-Used-Programming-Language/dp/1491952024) | David Flanagan | Comprehensive JS reference and guide |
+
+### Official Documentation & Tools
+
+| Resource | Description |
+|----------|-------------|
+| [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | The best JavaScript reference |
+| [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | Official TypeScript documentation |
+| [Node.js Documentation](https://nodejs.org/docs/latest/api/) | Server-side JavaScript |
+| [Can I Use](https://caniuse.com/) | Browser compatibility tables |
+
+### Practice & Learning
+
+| Resource | Description |
+|----------|-------------|
+| [JavaScript.info](https://javascript.info/) | Modern JavaScript tutorial |
+| [Exercism - JavaScript Track](https://exercism.org/tracks/javascript) | Practice exercises with mentoring |
+| [LeetCode](https://leetcode.com/) | Algorithm practice |
+| [freeCodeCamp](https://www.freecodecamp.org/) | Free coding curriculum |
+
+---
+
+## 📂 Repository Structure
+
+```
+complete-javascript-course-notes/
+├── 01-Fundamentals-Part-1/
+│   ├── starter/          # Start here
+│   ├── final/            # Complete solution
+│   ├── notes.md          # Chapter notes
+│   └── notes.pdf         # PDF version
+├── 02-Fundamentals-Part-2/
+│   └── ...
+├── ...
+├── 18-forkify/
+│   └── ...
+└── README.md
+```
+
+Each chapter folder contains:
+- `starter/` - Begin your coding exercises here
+- `final/` - Reference solutions (try not to peek!)
+- `notes.md` - Comprehensive chapter notes with CS perspectives
+- `notes.pdf` - PDF version of notes for offline study
+
+---
+
+## 🎓 Tips for Success
+
+1. **Code along** - Don't just read; type out every example
+2. **Complete all exercises** - Including those from Eloquent JavaScript
+3. **Use the Anki flashcards** - Spaced repetition helps retention
+4. **Build projects** - Apply what you learn immediately
+5. **Read the notes** - They include CS perspectives not found elsewhere
+6. **Ask questions** - Don't struggle in silence
+7. **Start your milestone project early** - Give yourself time to iterate
+
+---
+
+## 📝 License
+
+This repository is for educational purposes. Please respect the original course authors and textbook publishers.
+
+---
+
+**Happy coding! 🚀**
